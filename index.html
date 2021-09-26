@@ -12,7 +12,13 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="preload" href="/ts/index.ts" as="script" />
+    <link rel="preload" href="/js/index.js" as="script" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <div class="land">
@@ -62,8 +68,66 @@
         class="blob_rt"
       />
     </div>
-    <div class="">About, Skills</div>
-    <div class="">Projects, Footer</div>
-    <script src="/ts/index.ts"></script>
+    <div class="section">
+      <div style="font-size: 36px; margin-bottom: 10px">
+        <span style="font-weight: 300">About </span
+        ><span style="font-weight: 600">Me</span>
+      </div>
+      <div style="font-size: 18px">
+        Hi I am Sai krishna, an aspiring developer with multiple personal and
+        professional projects. I have worked on various projects spanning
+        multiple domains and technologies. I always try to seek new challenges
+        and love to explore new technologies. As an avid developer I am always
+        ready to collaborate with others on their projects.
+      </div>
+    </div>
+    <div class="section">
+      <div style="font-size: 36px; margin-bottom: 10px">
+        <span style="font-weight: 300">Skill </span
+        ><span style="font-weight: 600">Set</span>
+      </div>
+      <div class="skill-bg" id="skill_images"></div>
+    </div>
+    <div class="section">
+      <div style="font-size: 36px; margin-bottom: 10px">
+        <span style="font-weight: 300">My </span
+        ><span style="font-weight: 600">Projects</span>
+      </div>
+      <div class="project_set">
+        <div class="projects" id="projects"></div>
+        <img
+          src="/images/svgs/project_blobs/blob_tl.svg"
+          alt="blob_tl"
+          class="blob_tl"
+        />
+        <img
+          src="/images/svgs/project_blobs/blob_tr.svg"
+          alt="blob_tr"
+          class="blob_tr"
+        />
+        <img
+          src="/images/svgs/project_blobs/blob_m.svg"
+          alt="blob_m"
+          class="blob_m"
+        />
+      </div>
+    </div>
+    <div class="footer">
+      <ul>
+        <li>
+          <a href="#"><i class="fab fa-github-square fa-2x font_log"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-twitter-square fa-2x font_log"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-linkedin fa-2x font_log"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-envelope-square fa-2x font_log"></i></a>
+        </li>
+      </ul>
+    </div>
+    <script src="/js/index.js"></script>
   </body>
 </html>
